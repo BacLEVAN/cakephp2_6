@@ -73,4 +73,9 @@ class PagesController extends AppController {
 			throw new NotFoundException();
 		}
 	}
+
+	public function notice() {
+		echo 'welcome to Lifetimetech.vn';
+		exit;
+	}
 }
